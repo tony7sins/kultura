@@ -1,0 +1,34 @@
+ -Ubrat v drugoj file
+ {
+   Eliseev commity
+   https://github.com/ElisDN/php-demo-psr7-framework/commits/master?before=2f862f03756f568e19bd20da5142d84fe8689b40+175
+
+   CSS NOT BS!!!!
+   http://code.mu/css/
+ }
+
+Grid
+https://bootstrap-4.ru/docs/4.0/layout/grid/
+
+hide
+https://toster.ru/q/453830
+В bootstrap4 есть классы d-block и d-none - вот вокруг них и строится скрытие блоков.
+
+Я приведу несколько примеров, чтобы было понятно:
+
+1) Чтобы скрыть блок только на sm используйте связку классов d-sm-none d-md-block - т.е вы явно скрываете блок на sm и делаете его видимым на md и выше (на xs блок так же будет виден)
+2) Чтобы скрыть блок на xs используйте связку классов d-none d-sm-block - блок будет скрыт на xs и виден на всех остальных размерах
+
+А вот всякие hidden-md-up и hidden-md-up, не смотря на кажущуюся удобность, были выпилены из бутстрапа4 после альфы.
+
+Containers
+https://getbootstrap.com/docs/4.0/components/navbar/#containers
+
+flex
+https://getbootstrap.com/docs/4.0/utilities/flex/
+
+spacing
+https://getbootstrap.com/docs/4.0/utilities/spacing/
+
+display
+https://getbootstrap.com/docs/4.0/utilities/display/
